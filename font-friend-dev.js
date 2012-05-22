@@ -78,7 +78,7 @@
 		getGoogleFonts();
 // DC: This is a hack that doesn't work, so commented out, and rolled my own
 //      addGoogleFont('Roboto');
-//        addGlobalLink('http://fonts.googleapis.com/css?family=Droid+Arabic+Naskh&subset=arabic');
+        addGlobalLink('http://fonts.googleapis.com/css?family=Droid+Arabic+Naskh&subset=arabic');
 	}
 
     function addGlobalLink(linkUrl) {
@@ -428,7 +428,9 @@
 			fontFamily = fontFriend.customFamilyMap[fontFamily];
 		}
 		// add monospace as a fallback in the stack
-		return fontFamily + ",monospace";
+		// return fontFamily + ",monospace";
+		// DC actually just return the font family
+		return fontFamily;
 	}
 
 	// add inline font-family styles
