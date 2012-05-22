@@ -78,7 +78,7 @@
 		getGoogleFonts();
 // DC: This is a hack that doesn't work, so commented out, and rolled my own
 //      addGoogleFont('Roboto');
-        addGlobalLink('http://fonts.googleapis.com/css?family=Droid+Arabic+Naskh&subset=arabic');
+//        addGlobalLink('http://fonts.googleapis.com/css?family=Droid+Arabic+Naskh&subset=arabic');
 	}
 
     function addGlobalLink(linkUrl) {
